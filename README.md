@@ -1,6 +1,6 @@
-A Dark Room
-=========
+# An Illegal Attorney
 
-A Minimalist Text Adventure Game
 
-[Click to play](http://rawgithub.com/Continuities/adarkroom/master/index.html)
+### A Minimalist Text Adventure Game
+
+[Click to play]
