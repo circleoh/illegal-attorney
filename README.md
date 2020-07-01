@@ -1,6 +1,6 @@
 # An Illegal Attorney
 
 
-### A Minimalist Text Adventure Game
+### A Text Adventure Game
 
-[Click to play]
+[Click to play](https://naruei.github.io/illegal-attorney)
