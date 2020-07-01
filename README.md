@@ -3,4 +3,4 @@
 
 ### A Text Adventure Game
 
-[Click to play](https://naruei.github.io/illegal-attorney)
+[Click to play]
