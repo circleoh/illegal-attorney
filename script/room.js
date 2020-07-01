@@ -457,7 +457,7 @@ var Room = {
 		
 		
 		// Create the room tab
-		this.tab = Header.addLocation("A Dark Room", "room", Room);
+		this.tab = Header.addLocation("제1재판정", "jae1", Room);
 		
 		// Create the Room panel
 		this.panel = $('<div>')
