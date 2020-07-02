@@ -474,9 +474,10 @@ var Room = {
 				if(Header.canTravel()) {
 					Engine.travelTo(Outside);
 				}
-			}
+			},
 
-		})
+			width: '80px'
+		}).appendTo('div#roomPanel');
 		
 		// Create the light button
 		new Button.Button({
