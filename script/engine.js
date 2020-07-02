@@ -13,6 +13,12 @@ var Engine = {
 	
 	//object event types
 	topics: {},
+
+	options: {
+		state: null,
+		debug: true,
+		log: false
+	},
 		
 	Perks: {
 		'boxer': {
@@ -59,12 +65,6 @@ var Engine = {
 			desc: 'restore more health when eating',
 			notify: 'learned to make the most of food'
 		}
-	},
-	
-	options: {
-		state: null,
-		debug: false,
-		log: false
 	},
 		
 	init: function(options) {
