@@ -1,6 +1,7 @@
-# An Illegal Attorney
+Illegal Attorney
+===========
+> "nothing is possible. except for one."
 
+a minimalist text adventure game for your browser
 
-### A Text Adventure Game
-
-[Click to play]
+[Click to watch videos](https://www.youtube.com)
