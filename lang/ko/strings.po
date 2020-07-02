@@ -1069,7 +1069,6 @@ msgstr "방"
 msgid "A Dark Room"
 msgstr "어두운 방"
 
-#: script/room.js:1
 msgid "Loot"
 msgstr "탐색하기"
 
