@@ -10,7 +10,6 @@
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link rel="image_src" href="img/adr.png" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-	<script src="https://www.dropbox.com/static/api/dropbox-datastores-1.1-latest.js" type="text/javascript"></script>
 	<script>
 		if(!window.jQuery) {
 			document.write('<script src="lib/jquery.min.js"><\/script>')
@@ -33,7 +32,7 @@
 			} catch(e) {}
 		}
 		// if a language different than english requested, load all translations
-		if(lang && lang != 'en'){
+		if(lang && lang != 'ko'){
 			document.write('<script src="lang/'+lang+'/strings.js"><\/script>');
 			document.write('<link rel="stylesheet" type="text/css" href="lang/'+lang+'/main.css" \/>');
 		}
@@ -45,21 +44,17 @@
 	<script src="script/header.js"></script>
 	<script src="script/notifications.js"></script>
 	<script src="script/events.js"></script>
-	<script src="script/dropbox.js"></script>
 	<script src="script/room.js"></script>
-	<script src="script/outside.js"></script>
-	<script src="script/world.js"></script>
-	<script src="script/path.js"></script>
-	<script src="script/ship.js"></script>
-	<script src="script/space.js"></script>
 	<script src="script/prestige.js"></script>
-	<script src="script/scoring.js"></script>
 	<!-- Event modules -->
-	<script src="script/events/global.js"></script>
-	<script src="script/events/room.js"></script>
-	<script src="script/events/outside.js"></script>
-	<script src="script/events/encounters.js"></script>
-	<script src="script/events/setpieces.js"></script>
+	<!--
+		<script src="script/events/global.js"></script>
+		<script src="script/events/room.js"></script>
+		<script src="script/events/outside.js"></script>
+		<script src="script/events/encounters.js"></script>
+		<script src="script/events/setpieces.js"></script>
+	-->
+
 	
 	<script type='text/javascript'>
 		var oldIE = false;
