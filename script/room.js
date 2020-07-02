@@ -471,12 +471,9 @@ var Room = {
 			id: "nobutton",
 			text: "move there",
 			click: function() {
-				if(Header.canTravel()) {
 					Engine.travelTo(Outside);
-				}
 			},
-
-			width: '80px'
+			width: '100px'
 		}).appendTo('div#roomPanel');
 		
 		// Create the light button
