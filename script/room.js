@@ -466,6 +466,17 @@ var Room = {
 			.appendTo('div#locationSlider');
 		
 		Engine.updateSlider();
+
+		new Button.Button({
+			id: "nobutton",
+			text: "move there",
+			click: function() {
+				if(Header.canTravel()) {
+					Engine.travelTo(Outside);
+				}
+			}
+
+		})
 		
 		// Create the light button
 		new Button.Button({

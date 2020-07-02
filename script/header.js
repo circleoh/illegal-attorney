@@ -18,11 +18,7 @@ var Header = {
 	
 	addLocation: function(text, id, module) {
 		return $('<div>').attr('id', "location_" + id)
-			.addClass('headerButton')
-			.text(text).click(function() {
-				if(Header.canTravel()) {
-					Engine.travelTo(module);
-				}
-			}).appendTo($('div#header'));
+			.addClass('header')
+			.text(text).appendTo($('div#header'));
 	}
 };
