@@ -28,11 +28,11 @@
 		// if no language requested, try to read it from local storage
 		if(!lang){
 			try {
-				lang = localStorage.lang;
+				lang = 'ko';
 			} catch(e) {}
 		}
 		// if a language different than english requested, load all translations
-		if(lang && lang != 'ko'){
+		if(lang && lang != 'en'){
 			document.write('<script src="lang/'+lang+'/strings.js"><\/script>');
 			document.write('<link rel="stylesheet" type="text/css" href="lang/'+lang+'/main.css" \/>');
 		}
